@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IcelandFlag in CSS</title>
+    <style>
+        #outer{
+            height: 460.8px;
+            width: 640px;
+            background-color:#02529c;
+            position: absolute;
+            border: 5px solid black;
+            margin-top: 20px;
+        }
+        #vert{
+            position:absolute;
+            height: 460.8px;
+            width: 102.4px;
+            background-color: white;
+            left: 200px;
+        }
+        #hori{
+            position:absolute;
+            height: 102.4px;
+            width: 640px;
+            background-color: white;
+            top: 179.2px;
+        }
+        #cross-vert{
+            position:absolute;
+            height: 460.8px;
+            width: 51.2px;
+            background-color:#dc1e35;
+            left: 25%;
+            z-index: 1;
+        }
+        #cross-hori{
+            position:absolute;
+            height: 51.2px;
+            width: 640px;
+            background-color: #dc1e35;
+            top: 25%;
+        }
+        div#title{
+            position: relative;
+           height: 600px;
+           width: 800px;
+           top: 100px;
+            margin-left: 25%;
+           text-align: center;
+           font-size: 3rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="title"> The Flag Of Iceland by Samer Frangieh
+        <div id="outer" class="blue">
+            <div id="vert" class="white">
+                <div id="cross-vert" class="red"></div>
+            </div>
+            <div id="hori" class="white">
+                <div id="cross-hori" class="red"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
